@@ -5,7 +5,6 @@ include 'db.php';  // Include the database connection
 
 $sql = "SELECT * FROM tasks ORDER BY created_at DESC";  // Query to get tasks ordered by creation time
 $result = $conn->query($sql);  // Execute the query
-
 ?>
 <!DOCTYPE html>
 <html>
